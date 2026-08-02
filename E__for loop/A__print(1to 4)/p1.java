@@ -1,0 +1,1 @@
+error: no class declared in source file
