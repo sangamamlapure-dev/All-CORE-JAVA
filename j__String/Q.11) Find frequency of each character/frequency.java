@@ -10,6 +10,5 @@ class Codex{
 					System.out.println((char)i +"="+ freq[i]);
 				}
 			}
-		System.out.println();
 	}
 }
