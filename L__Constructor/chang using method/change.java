@@ -6,7 +6,7 @@ class Student{
 			this.age=age;
 		}
 		void setage(int setage){
-			 age=setage;
+			 setage= age;
 		}
 		void display(){
 			System.out.println(name);
