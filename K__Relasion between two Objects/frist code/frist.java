@@ -2,7 +2,7 @@ class Student{
 	String name="sangam";
 	void Display(){
 			System.out.println(name);
-		Collage c1= new Collage();
+			Collage c1= new Collage();
 			System.out.println(c1.cname);
 	}
 	
