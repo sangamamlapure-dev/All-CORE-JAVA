@@ -6,7 +6,7 @@ class Collage{
 	}
 }
 class Demo{
-	public static void main(string args[]){
+	public static void main(string [] args){
 		collage c =null;
 		c=new Collage();
 		c.fun();
