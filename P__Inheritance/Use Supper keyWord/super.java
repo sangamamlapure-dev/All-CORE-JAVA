@@ -1,17 +1,11 @@
 class Main{
     public static void main(String[] args) {
-  	Child c= new Child();      
+  	Parent c= new Parent();      
     }
 }
 
 class Parent{
-    void fun() {
+    Parent() {
 	super();      
     }
 }
-
-class Child extends Parent{
-
-}
-
-
