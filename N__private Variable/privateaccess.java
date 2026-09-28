@@ -1,15 +1,11 @@
-class Bank {
-    private int balance = 5000;
+class A {
+    private int x;
 
-    public void showBalance() {
-        System.out.println(balance);
+    public void setX(int value) {
+        x = value;
     }
-}
 
-class Main {
-    public static void main(String[] args) {
-        Bank b = new Bank();
-
-        b.showBalance();
+    public int getX() {
+        return x;
     }
 }
