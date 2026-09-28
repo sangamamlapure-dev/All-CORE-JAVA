@@ -1,7 +1,8 @@
 class main{
 	public static void main(String[] args){
-		child c = new child(10);
+		child c = new child(10,20);
 		c.display();
+		c.displays();
 	}
 }
 class parent{
@@ -9,17 +10,22 @@ class parent{
 	 parent(int a){
 		this.a=a;
 	}
-	void display(){
+	void displays(){
 		System.out.println(a);
 	}
 	
 }
 class child extends parent{
 		int a;
-		child(int a){
+		int b;
+		child(int a,int b){
 			super(a);
+			this.b=b;
 			
+		}
+		void display(){
+			System.out.println(b);
 		}	
 }
 
-//transfer variable child to parent 
+//transfer one variable child to parent and one print 
