@@ -1,0 +1,3 @@
+In space complexity we don't consider as a space so we count only arr
+
+Kiti pn variable use kele tari SC O(1) ch asnare jar arr use kela tarch vadnar
