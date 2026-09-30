@@ -25,4 +25,4 @@ public class Main {
         Team t = new Team(p);
         t.display();
     }
-}
+}	
