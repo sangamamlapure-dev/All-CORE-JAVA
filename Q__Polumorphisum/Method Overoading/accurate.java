@@ -11,9 +11,10 @@ Class Main{
 	public static void main(String[] args){
 		Codex c= new Codex();
 		c.fun();
+		c.fun(10);
 	}
 }
 
-//name same chaltay pn main manje parameter pahije ani tyala structure mantat structure
+//two method same chaltay pn main manje parameter pahije ani tyala apn signature manto ani te diffrent pahije tenva he chaltay 
 
 
